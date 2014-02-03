@@ -16,10 +16,8 @@
 .btn-alt:link,
 .btn-alt:visited {
 	background-color: #5d8432;
-	background-image: linear-gradient(to bottom, #936, #714);	
-		
+	background-image: linear-gradient(to bottom, #936, #714);		
 }
-
 
 .btn:hover {
 	background-color: #33f;
