@@ -28,12 +28,10 @@ input[type=button], input[type=button]:hover {
 }
 
 .dark {
-	width:95%;
-	height:50px;
+	width:100%;
+	height:200px;
 	padding:40px 25px;
-}
-
-.dark{
+	text-align: right;
 	background: url('./images/dark_grey.jpg');
 }
 .dark input[type=text]{
