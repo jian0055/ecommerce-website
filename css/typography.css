@@ -83,7 +83,6 @@ a,
 a:link {
 	color: #F60;
 	text-decoration: none;
-	border-bottom: 0.1em solid rgba(255,0,0,0.5);
 	transition: all 200ms linear;
 }
 
@@ -108,7 +107,6 @@ ul li {
 }
 
 ul li:before {
-	content: "-";	
 	color: #F00;
 	position: absolute;
 	left: -1.2em;
@@ -122,8 +120,7 @@ ol li {
 	position: relative;
 }
 
-ol li:before {
-	content: "⇀";	
+ol li:before {	
 	color: #000;
 	position: absolute;
 	left: -1.2em;
@@ -148,22 +145,19 @@ table {
 	text-align: left;
 }
 
-table th
-{
+table th {
 	font-size: 14px;
 	font-weight: normal;
 	color: #F60;
 	padding: 10px 8px;
 	border-bottom: 2px solid #F60;
 }
-table td
-{
+table td {
 	color: #669;
 	padding: 9px 8px 0px 8px;
 }
 
-table tbody tr:hover td
-{
+table tbody tr:hover td {
 	color: #F00;
 }
 
