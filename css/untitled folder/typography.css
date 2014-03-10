@@ -1,0 +1,168 @@
+/*
+  Colour Palette
+  - Dark green: #060 - rgb(0, 100, 0)
+  - Dark red: #600 - rgb(100, 0, 0)
+ */
+
+html {
+	font: normal 100%/1.5 Arial, Helvetica, sans-serif;  /* 16px/24px*/
+}
+
+h1, h2, h3, h4, h5, h6
+p, ul, ol, dl
+table {
+	margin: 2 0 1.5rem;
+	
+}
+
+.yotta {
+  font-size: 2.2807rem;
+  line-height: 1.3154;
+}
+
+.zetta {
+  font-size: 2.0273rem;
+  line-height: 1.4798;
+}
+
+h1, .exa {
+  font-size: 1.8020rem;
+  font-family:"Arial Black", Gadget, sans-serif;
+  line-height: 1.6648;
+  color: #903;
+}
+
+h2, .peta {
+  font-size: 1.6018rem;
+  line-height: 1.8729;
+  color: #936;
+}
+
+h3, .tera {
+  font-size: 1.4238rem;
+  line-height: 1.0535;
+  font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+  color: #930;
+}
+
+h4, .giga {
+  font-size: 1.2656rem;
+  line-height: 1.1852;
+  color: #966;
+}
+
+h5, .mega {
+  font-size: 1.1250rem;
+  line-height: 1.3333;
+  color: #F93;
+}
+
+h6, .kilo {
+  font-size: 1.0000rem;
+  line-height: 1.5000;
+  color: #FC9;
+}
+
+small, .milli {
+  font-size: 0.8889rem;
+  line-height: 1.6875;
+}
+
+.micro {
+  font-size: 0.7901rem;
+  line-height: 1.8984;
+}
+
+
+::selection {
+	background-color: #F60;
+	color: #FFF;
+}
+
+a,
+a:link {
+	color: #F60;
+	text-decoration: none;
+	transition: all 200ms linear;
+}
+
+a:visited {
+	color: #F33;
+	border-bottom-color: #F33;
+}
+
+a:hover,
+a:focus,
+a:active {
+	color: #000;
+	border-bottom-color: #F00;
+}
+
+ul {
+	list-style-type: none;
+}
+
+ul li {
+	position: relative;
+}
+
+ul li:before {
+	color: #F00;
+	position: absolute;
+	left: -1.2em;
+}
+
+ol {
+	list-style-type: none;
+}
+
+ol li {
+	position: relative;
+}
+
+ol li:before {	
+	color: #000;
+	position: absolute;
+	left: -1.2em;
+}
+
+blockquote {
+  font: 14px/22px normal helvetica, sans-serif;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 50px;
+  padding-left: 15px;
+  border-left: 3px solid #ccc;
+} 
+
+table {
+	font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+	font-size: 12px;
+	background: #fff;
+	margin: 45px;
+	width: 480px;
+	border-collapse: collapse;
+	text-align: left;
+}
+
+table th {
+	font-size: 14px;
+	font-weight: normal;
+	color: #F60;
+	padding: 10px 8px;
+	border-bottom: 2px solid #F60;
+}
+table td {
+	color: #669;
+	padding: 9px 8px 0px 8px;
+}
+
+table tbody tr:hover td {
+	color: #F00;
+}
+
+
+
+
+
+

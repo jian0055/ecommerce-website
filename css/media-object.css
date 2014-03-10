@@ -20,34 +20,3 @@
 	float: none;
 	margin: 0;
 }
-
-* {
-	-moz-box-sizing: border-box;
-	-webkit-box-sizing: border-box;
-	box-sizing: border-box;
-}
-
-html {
-	font: normal 100%/1.5 sans-serif;
-}
-
-figure {
-	margin: 0;
-	padding: 0;
-	float: left;
-	width: 30%;
-}
-
-figure img {
-	width: 100%;
-}
-
-figcaption {
-	font: italic normal 1rem/1.5 Georgia,serif;
-}
-
-p {
-	float: right;
-	margin: 0 0 1.5rem;
-	width: 65%;
-}
