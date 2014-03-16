@@ -1,0 +1,18 @@
+---
+layout: default
+---
+
+<strong>Product</strong>
+
+<nav>
+	<ul>
+		
+		<li><a class="{% if page.url contains 'digital-clocks' %}current{% endif %}"href="{{site.baseurl}}/digital-clocks/">Digital Clocks</a></li>
+	
+		<li><a class="{% if page.url contains 'physical-clocks' %}current{% endif %}"href="{{site.baseurl}}/physical-clocks/">Physical Clocks</a></li>
+		
+		
+	</ul>
+</nav>
+
+{{content}}
