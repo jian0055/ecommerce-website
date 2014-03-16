@@ -36,3 +36,9 @@ body {
   display: block;
   width: 100%;
 }
+
+
+.current {
+	background-color: #E3CE92;
+	color: #E3CE92;
+}
