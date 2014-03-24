@@ -161,7 +161,9 @@ table tbody tr:hover td {
 	color: #F00;
 }
 
-
+.dark {
+	text-align: center;
+}
 
 
 
