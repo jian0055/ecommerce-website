@@ -2,14 +2,14 @@
 layout: default
 ---
 
-<strong>Product</strong>
+<h4>Product</h4>
 
 <nav>
 	<ul>
 		
-		<li><a class="{% if page.url contains 'digital-clocks' %}current{% endif %}"href="{{site.baseurl}}/digital-clocks/">Digital Clocks</a></li>
+		<li><a class="header nav-btn hide-text {% if page.url contains 'digital-clocks' %}current{% endif %}"href="{{site.baseurl}}/digital-clocks/">Digital Clocks</a></li>
 	
-		<li><a class="{% if page.url contains 'physical-clocks' %}current{% endif %}"href="{{site.baseurl}}/physical-clocks/">Physical Clocks</a></li>
+		<li><a class="header nav-btn hide-text {% if page.url contains 'physical-clocks' %}current{% endif %}"href="{{site.baseurl}}/physical-clocks/">Physical Clocks</a></li>
 		
 		
 	</ul>

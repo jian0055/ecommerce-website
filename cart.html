@@ -4,10 +4,13 @@ layout: default
 
 <h1>Cart</h1>
 
-<img class="" src="http://placehold.it/400x400" alt="">
-<img class="" src="http://placehold.it/400x400" alt="">
-
+<div class="gutter unit unit-s-1 unit-m-1-2 unit-l-1-2">
+		{% include promo-small.html title="Promo 1" desc="A clock is an instrument to indicate, keep, and co-ordinate time. The word clock is derived ultimately (via Dutch, Northern French, and Medieval Latin) from the Celtic words clagan and clocca meaning 'bell'. " image="wall-clocks/clock1.jpg" %}
+	</div>
+	
+	<div class="gutter unit unit-s-1 unit-m-1-2 unit-l-1-2">
+		{% include promo-small.html title="Promo 2" desc="A silent instrument missing such a mechanism has traditionally been known as a timepiece. In general usage today a 'clock' refers to any device for measuring and displaying the time. Watches and other timepieces that can be carried on one's person are often distinguished from clocks." image="wall-clocks/clock2.jpg" %}
+	</div>
 
 {{content}}
-
-<a class="gutter btn btn-alt giga unit unit-s-2 unit-m-2" href="{{site.baseurl}}/thank-you/">Checkout</a>
+<a class="product btn btn-alt giga" href="{{site.baseurl}}/thank-you/">Checkout</a>
