@@ -23,3 +23,7 @@
 	background-color: #33f;
 	background-image: linear-gradient(to bottom, #930, #718);
 }
+
+.checkout-button {
+	text-align: center;
+}
