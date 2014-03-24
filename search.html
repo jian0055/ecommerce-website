@@ -1,0 +1,17 @@
+---
+layout: default
+---
+
+<h1>Search results</h1>
+
+<ul>
+	{% for product in site.categories.physical %}
+		<li>
+			<a href="{{site.baseurl}}{{product.url}}">{{product.title}}</a>
+			
+			<p>{{product.meta}}</p>
+		
+		</li>
+	{% endfor %}
+
+</ul>
