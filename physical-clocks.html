@@ -2,16 +2,17 @@
 layout: product
 ---
 
-<h1>Physical Clocks</h1>
-
-<ul>
-	{% for product in site.categories.physical %}
-		<li>
-			<a href="{{site.baseurl}}{{product.url}}">{{product.title}}</a>
+<main role="main" id="main">
+	<h1>Physical Clocks</h1>
+	
+	<ul>
+		{% for product in site.categories.physical %}
+			<li>
+				<a href="{{site.baseurl}}{{product.url}}">{{product.title}}</a>
+				
+				<p>{{product.meta}}</p>
 			
-			<p>{{product.meta}}</p>
-		
-		</li>
-	{% endfor %}
-
-</ul>
+			</li>
+		{% endfor %}
+	</ul>
+</main>

@@ -28,14 +28,14 @@
 <body>
 
 
-<header>
+<header role="banner" id="top">
 <div  class="grid ">
 	<div class="header unit unit-s-1 unit-m-1">
 	<div class="unit unit-s-1 unit-m-1 unit-l-1-3">
       <img class="logo" src="{{site.baseurl}}/images/icons/logo.svg" alt="Logo">
     </div>
 			<a href="#nav" class="nav-btn hide-text" data-state="inactive"></a>
-			<nav class="nav nav-top" data-state="collapsed">
+			<nav role="navigation" id="primenav" class="nav nav-top" data-state="collapsed">
 			
 				<ul class="list-group giga brand-family push-0 nav">
 				<li class="list-group-item list-group-item-inline">
@@ -56,8 +56,9 @@
 
 		<div class="dark gutter unit unit-s-1 unit-m-1-1 unit-l-1-1">
 		<form method="get" action="{{site.baseurl}}/search/">
-			<span><input type="text" class="search rounded" placeholder="Search..."></span>
-			<span><input type="submit" value="Search"></span>
+			<label for="search" class="searchlabel">Search</label>
+			<span><input id="search" type="text" class="search rounded" placeholder="Search..."></span>
+			<span><input id="searchfield" type="submit" value="Search"></span>
 		</form>
 		</div>
 	</div>
@@ -71,7 +72,7 @@
 
 {{content}}
 
-<footer class="footer pad-t">
+<footer role="contentinfo" class="footer pad-t">
   <div class="grid">
     <div class="unit unit-s-1 unit-m-1 unit-l-1-2 gutter-1-2">
       <p class="footer-copyright"><small>© Clocks</small></p>
