@@ -8,10 +8,7 @@ layout: product
 	<ul>
 		{% for product in site.categories.physical %}
 			<li>
-				<a href="{{site.baseurl}}{{product.url}}">{{product.title}}</a>
-				
-				<p>{{product.meta}}</p>
-			
+				<a href="{{site.baseurl}}{{product.url}}">{{product.title}}</a>			
 			</li>
 		{% endfor %}
 	</ul>
